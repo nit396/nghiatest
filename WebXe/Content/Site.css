@@ -1,0 +1,155 @@
+﻿.navbar-inverse {
+    background-color: #315f88;
+    border-color: #448a8a;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ddd;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ddd;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.banner {
+    width: 100%;
+    position:static;
+}
+
+.carousel-inner > .item > img {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.item-content {
+    padding: 10px 20px 20px 20px;
+    background-color:#ddd;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #448a8a;
+}
+
+.item-content:hover {
+    background-color:darkgrey;
+}
+
+.item-content > img {
+    height: 250px;
+    width: 250px;
+}
+
+.body {
+    position:relative;
+    height:189px;
+}
+
+.item-image > img {
+    height: 100%;
+    width: 100%;
+}
+
+.item-thumbnail {
+    position: absolute;
+    bottom: 0;
+}
+
+.item-thumbnail > img {
+    height: 75px;
+    width: 75px;
+}
+
+.item-info {
+    height: 189px;
+    text-align: right;
+}
+
+.item-button-view {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.admin-content {
+    margin: 40px;
+}
+
+.pagination {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+
+.item-slider {
+    width: 50%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    border: 3px solid gray;
+    background-color: gray;
+}
+
+.realmoney {
+    color:darkgreen;
+}
+
+.publicmoney {
+    color:brown;
+}
+
+.item-title {
+    font-size:30px;
+}
+
+.item-smallcontent {
+    margin-top:30px;
+    color: white;
+    width: 100%;
+    height: 300px;
+    background-color: slategrey;
+    border:3px solid gray;
+    padding:20px;
+}
